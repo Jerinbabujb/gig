@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            background-color: #eef1f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .card {
+            background: white;
+            width: 340px;
+            border-radius: 40px;
+            overflow: hidden;
+            border: 4px solid #1a232e;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        /* Profile Section with Curved Divider */
+        .header {
+            background-color: #19058c;
+            height: 320px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: #fff;
+            border-top-left-radius: 50% 100%;
+            border-top-right-radius: 50% 100%;
+        }
+
+        .profile-img {
+            width: 220px;
+            height: 220px;
+            background-color: #ccc; /* Placeholder for photo */
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 0 30px 30px 30px;
+            text-align: center;
+        }
+
+        .logo-area {
+            font-size: 0.8rem;
+            color: #8cc63f;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        h1 { margin: 5px 0; font-size: 1.6rem; color: #333; }
+        .role { color: #555; margin: 5px 0; }
+        .company { color: #777; margin-bottom: 20px; font-weight: 500; }
+
+        hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+
+        .tagline { color: #444; font-style: italic; margin: 15px 0; }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .icon {
+            background: #eef8e5;
+            color: #8cc63f;
+            padding: 12px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .add-button {
+            width: 100%;
+            padding: 18px;
+            background-color: #000;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">
+            <img src="./assets/Mr. Murad - Chairman.jpg" alt="Profile" class="profile-img">
+        </div>
+        
+        <div class="content">
+            <div class="logo-area"><img src="./assets/bkic (2).png" style="width: 100px;"/></div>
+               <h1>Murad Ali Murad</h1>
+            <h1>مراد علي مراد</h1>
+            <div class="role">Chairman</div>
+            <div class="role">رئيس مجلس الإدارة
+</div>
+            
+            <hr>
+            
+            <div class="contact-item">
+                <div class="icon">📞</div>
+                <div>555-555-5555<br><small style="color:gray">Work</small></div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="icon">✉️</div>
+                <div>john.smith@activelifewellness.com<br><small style="color:gray">Work</small></div>
+            </div>
+            
+            <button class="add-button">+ Add to Contacts</button>
+        </div>
+    </div>
+
+</body>
+</html>
