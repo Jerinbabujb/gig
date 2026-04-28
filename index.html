@@ -18,7 +18,17 @@
     --text:   #2C2C2C;
     --muted:  #7A7369;
   }
+@font-face {
+  font-family: 'ReformaBlanca';
+  src: url('Reforma.1918-Blanca.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+/* Apply globally */
+body {
+  font-family: 'ReformaBlanca', sans-serif;
+}
   body {
     min-height: 100vh;
     /* background: var(--navy); */
@@ -26,7 +36,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'DM Sans', sans-serif;
     padding: 2rem;
     background-image:
       radial-gradient(ellipse 60% 40% at 80% 20%, rgba(201,168,76,.12) 0%, transparent 60%),
@@ -87,7 +96,7 @@
     line-height: 1;
   }
   .logo-name {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'ReformaBlanca', sans-serif;
     font-weight: 600;
     font-size: 1.25rem;
     color: var(--cream);
@@ -146,7 +155,7 @@
   }
   .name-block { flex: 1; padding-bottom: 4px; }
   .emp-name {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'ReformaBlanca', sans-serif;
     font-weight: 300;
     font-size: 1.65rem;
     color: var(--cream);
@@ -308,7 +317,7 @@
     text-transform: uppercase;
   }
   .save-btn {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'ReformaBlanca', sans-serif;
     font-size: .65rem;
     letter-spacing: .15em;
     text-transform: uppercase;
@@ -333,7 +342,7 @@
     <div class="logo">
       <div class="logo-mark">
         <!-- Shield logo mark -->
-        <img src="./assets/BKIC-Logo-RGB_GIG Co-Full_page-0001.jpg" style="width:100px"/>
+        <img src="./assets/BKIC-Logo-RGB_GIG Co-Full_page-0001.jpg" style="width:70px"/>
       </div>
       <!-- <div class="logo-text">
         <span class="logo-name">Aegis</span>
