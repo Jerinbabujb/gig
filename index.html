@@ -15,8 +15,8 @@
     --gold-lt:#C5A086;
     --cream:  #F4F4F4;
     --smoke:  #F4F4F4;
-    --text:   #2C2C2C;
-    --muted:  #7A7369;
+    --text:   white;
+    --muted:  white;
   }
 @font-face {
   font-family: 'ReformaBlanca';
@@ -31,8 +31,7 @@ body {
 }
   body {
     min-height: 100vh;
-    /* background: var(--navy); */
-    background-color: #e6e6e6;
+    background: var(--cream);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,8 +59,7 @@ body {
 
   /* ── HEADER BAND ───────────────────────────── */
   .card-header {
-    /* background: var(--navy); */
-    background-color: #19058c;
+    background: var(--cream);
     position: relative;
     padding: 36px 32px 0;
     display: flex;
@@ -129,7 +127,7 @@ body {
     gap: 20px;
     padding: 0 32px;
     margin-top: -1px;
-    background: var(--navy);
+    background: var(--cream);
     position: relative;
     z-index: 1;
     padding-bottom: 28px;
@@ -159,7 +157,7 @@ body {
     font-family: 'ReformaBlanca', sans-serif;
     font-weight: 300;
     font-size: 1.65rem;
-    color: var(--cream);
+    color: var(--navy);
     line-height: 1.15;
     letter-spacing: .01em;
   }
@@ -182,7 +180,7 @@ body {
 
   /* ── CURVED TRANSITION ─────────────────────── */
   .wave {
-    background: var(--navy);
+    background: var(--cream);
     height: 32px;
     position: relative;
     margin-bottom: -1px;
@@ -192,13 +190,13 @@ body {
     position: absolute;
     bottom: 0; left: 0; right: 0;
     height: 32px;
-    background: var(--cream);
+    background: var(--navy);
     border-radius: 28px 28px 0 0;
   }
 
   /* ── BODY ──────────────────────────────────── */
   .card-body {
-    background: var(--cream);
+    background: var(--navy);
     padding: 32px 32px 28px;
     display: flex;
     flex-direction: column;
@@ -223,7 +221,7 @@ body {
   .ci-icon {
     width: 36px; height: 36px;
     border-radius: 10px;
-    background: var(--navy);
+    background: var(--cream);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,7 +263,7 @@ body {
   .addr-icon {
     width: 36px; height: 36px;
     border-radius: 10px;
-    background: var(--navy);
+    background: var(--cream);
     display: flex; align-items: center; justify-content: center;
     flex-shrink: 0;
     box-shadow: 0 2px 8px rgba(13,27,42,.15);
@@ -290,7 +288,7 @@ body {
   .soc-btn {
     width: 40px; height: 40px;
     border-radius: 12px;
-    background: var(--navy);
+    background: var(--cream);
     display: flex; align-items: center; justify-content: center;
     text-decoration: none;
     transition: transform .2s, box-shadow .2s, background .2s;
@@ -305,7 +303,7 @@ body {
 
   /* ── FOOTER ────────────────────────────────── */
   .card-footer {
-    background: var(--navy);
+    background: var(--cream);
     padding: 14px 32px;
     display: flex;
     align-items: center;
@@ -313,7 +311,7 @@ body {
   }
   .footer-txt {
     font-size: .6rem;
-    color: rgba(245,240,232,.3);
+    color: var(--navy);
     letter-spacing: .12em;
     text-transform: uppercase;
   }
@@ -343,7 +341,7 @@ body {
     <div class="logo">
       <div class="logo-mark">
         <!-- Shield logo mark -->
-        <img src="./assets/BKIC-Logo-RGB_GIG Co-Full_page-0001.jpg" style="width:70px"/>
+        <img src="./assets/bkic (2).png" style="width:70px"/>
       </div>
       <!-- <div class="logo-text">
         <span class="logo-name">Aegis</span>
