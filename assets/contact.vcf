@@ -1,9 +1,9 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:BRAND MEDIA
-ORG:Murad Ali Murad
+FN:Murad Ali Murad
+ORG:Takaful International Co.
 TEL;TYPE=WORK,VOICE:+97339649649
 EMAIL;TYPE=INTERNET:muradm@batelco.com.bh
 EMAIL;TYPE=INTERNET:aljanabiya@batelco.com.bh
-PHOTO;ENCODING=b;TYPE=JPEG:https://gig-chairman.netlify.app/assets/Mr.%20Murad%20-%20Chairman.jpg
+PHOTO;TYPE=JPEG;VALUE=URI:https://gig-chairman.netlify.app/assets/Mr.%20Murad%20-%20Chairman.jpg
 END:VCARD
